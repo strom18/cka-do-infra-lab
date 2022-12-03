@@ -1,7 +1,7 @@
 # CKA DigitalOcean infra build
 
 This repo will create a simple infrastructure to work with kubeadm and kubernetes cluster.
-You can define the number of controlplane and worker node inside the `instances.tf` files.
+You can define the number of controlplane and worker node inside the `variables.tf` files.
 
 ```
 variable "controlplane_count" {
