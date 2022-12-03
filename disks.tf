@@ -3,7 +3,7 @@
 #   count = var.controlplane_count
 #   region                  = "ams3"
 #   name                    = "rook-controlplane-disk-${count.index}"
-#   size                    = 20
+#   size                    = var.node_disk_size
 # #   initial_filesystem_type = "xfs"
 # }
 
@@ -18,7 +18,7 @@
 #   count = var.worker_count
 #   region                  = "ams3"
 #   name                    = "rook-worker-disk-${count.index}"
-#   size                    = 20
+#   size                    = var.node_disk_size
 # #   initial_filesystem_type = "xfs"
 # }
 
